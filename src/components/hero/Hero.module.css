@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding-top: 230px;
+}
+.container-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-left {
+  max-width: 678px;
+  height: 364px;
+  > p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #6e7191;
+    margin-top: 21px;
+    margin-bottom: 34px;
+  }
+  > h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 74px;
+    color: #211f54;
+  }
+}
+.hero-btn {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.hero-phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #6e7191;
+    margin-bottom: 8px;
+    letter-spacing: 1.6;
+  }
+}
+.btn {
+  padding: 26px 34px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0075ff;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.hero-phone-number {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #211f54;
+}

@@ -1,0 +1,133 @@
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  margin-top: 300px;
+  background-color: #f7f9fc;
+}
+.contact {
+  display: flex;
+  gap: 60px;
+}
+.Contact-info {
+  padding-top: 160px;
+  > h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #211f54;
+    margin-bottom: 31px;
+  }
+  > p {
+    max-width: 484px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #6e7191;
+    margin-bottom: 31px;
+  }
+
+  > h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #211f54;
+    margin-bottom: 10px;
+  }
+}
+.hero-phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+
+  > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #6e7191;
+    margin-bottom: 8px;
+    letter-spacing: 1.6;
+  }
+}
+.btn {
+  padding: 26px 34px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0075ff;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.hero-line {
+  width: 486px;
+  height: 2px;
+  background-color: #dcddeb;
+  margin-bottom: 55px;
+}
+
+.hero-phone-number {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #211f54;
+}
+.btn-primary {
+  background-color: #eff0f6;
+  padding: 26px 38px;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #211f54;
+  border: 1px;
+  border-radius: 14px;
+  cursor: pointer;
+  margin-bottom: 200px;
+}
+
+.contact-forms {
+  width: 673px;
+  height: 708px;
+  padding: 84px 60px;
+  margin-top: 210px;
+  background-color: #ffffff;
+}
+.contact-input-all {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+.contact-form input {
+  width: 259px;
+  height: 72px;
+  border-radius: 16px;
+  border: 1px solid #154065;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #6e7191;
+}
+.contact-form p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #211f54;
+  margin-bottom: 10px;
+}
+.contact-textarea textarea {
+  width: 550px;
+  height: 144px;
+  border-radius: 2px;
+  margin-top: 32px;
+
+  > p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #211f54;
+  }
+}
